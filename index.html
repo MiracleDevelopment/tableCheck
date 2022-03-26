@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>tableChekList</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+
+    <h1>Чек-лист мангал</h1>
+
+    <div class="container">
+
+        <!-- <div class="lunch"> -->
+
+        <table>
+
+            <!-- <tr>
+                        <th>блок</th>
+                        <th>наименование</th>
+                        <th>наличие</th>
+                        <th>кол-во</th>
+                    </tr> -->
+
+            <tr>
+                <td class="col0" colspan="4">Бизнес ланч</td>
+                <!-- <td>&nbsp;</td>
+                    <td class="col3">&nbsp;</td>
+                    <td class="col4">&nbsp;</td> -->
+            </tr>
+
+            <tr>
+                <td class="col1">&nbsp;</td>
+                <td class="col2">лаваш</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy0" name="happy" value="yes">
+                    <label for="happy0"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+            <tr>
+                <td class="col1" rowspan="5">Коул-Слоу</td>
+                <td>заправка</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy1" name="happy" value="yes">
+                    <label for="happy1"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td class="col1">капуста б/к</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy2" name="happy" value="yes">
+                    <label for="happy2"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>капуста кр/к</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy3" name="happy" value="yes">
+                    <label for="happy3"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>морковь</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy4" name="happy" value="yes">
+                    <label for="happy4"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>петрушка</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy5" name="happy" value="yes">
+                    <label for="happy5"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Картофель Айдахо Рагу</td>
+                <td>заправка</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy6" name="happy" value="yes">
+                    <label for="happy6"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>картофель отв.</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy7" name="happy" value="yes">
+                    <label for="happy7"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>укроп</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy8" name="happy" value="yes">
+                    <label for="happy8"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>масло-чеснок</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy9" name="happy" value="yes">
+                    <label for="happy9"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <!-- </table> -->
+            <!-- </div> -->
+
+            <!-- <br /> -->
+
+            <!-- <div class="distr"> -->
+            <!-- <table> -->
+            <!-- 
+                <tr>
+                    <th>блок</th>
+                    <th>наименование</th>
+                    <th>наличие</th>
+                    <th>кол-во</th> 
+                </tr> -->
+
+            <tr>
+                <td class="col0" colspan="4">Позиции раздачи</td>
+                <!-- <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td> -->
+            </tr>
+
+
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>капуста кр/к</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy10" name="happy" value="yes">
+                    <label for="happy10"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>c-т Айсберг</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy110" name="happy" value="yes">
+                    <label for="happy110"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>огурец марин. круг</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy11" name="happy" value="yes">
+                    <label for="happy11"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>халапеньо</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy12" name="happy" value="yes">
+                    <label for="happy12"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Чеддр ломтик</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy13" name="happy" value="yes">
+                    <label for="happy13"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Кинза (веточки)</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy14" name="happy" value="yes">
+                    <label for="happy14"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>лук красный (кольца)</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy15" name="happy" value="yes">
+                    <label for="happy15"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>лимон/лайм</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy16" name="happy" value="yes">
+                    <label for="happy16"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>томат</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy17" name="happy" value="yes">
+                    <label for="happy17"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>томат чери</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy18" name="happy" value="yes">
+                    <label for="happy18"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>Соусы</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>BBQ</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy19" name="happy" value="yes">
+                    <label for="happy19"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>сладкий чили (Айоли)</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy20" name="happy" value="yes">
+                    <label for="happy20"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>перечный</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy21" name="happy" value="yes">
+                    <label for="happy21"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>ореховый</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy22" name="happy" value="yes">
+                    <label for="happy22"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>сырный п/ф</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy23" name="happy" value="yes">
+                    <label for="happy23"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Фирменный Томатный п/ф</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy24" name="happy" value="yes">
+                    <label for="happy24"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Релиш</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy25" name="happy" value="yes">
+                    <label for="happy25"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>кислый кориандр п/ф</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy26" name="happy" value="yes">
+                    <label for="happy26"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>терияки</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy27" name="happy" value="yes">
+                    <label for="happy27"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>зелёное масло-чеснок</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy28" name="happy" value="yes">
+                    <label for="happy28"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>Гарниры</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">печёные овощи</td>
+                <td>цукини</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy29" name="happy" value="yes">
+                    <label for="happy29"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>перец</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy30" name="happy" value="yes">
+                    <label for="happy30"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Картофель "Фри"</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy31" name="happy" value="yes">
+                    <label for="happy31"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>картофель "Айдахо"</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy32" name="happy" value="yes">
+                    <label for="happy32"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+
+
+            <!-- </table> -->
+            <!-- </div> -->
+            <br />
+
+            <!-- <div class="roastig"> -->
+            <!-- <table> -->
+            <tr>
+                <td colspan="4">Позиции обжарки</td>
+                <!-- <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td> -->
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>стейк св. 290</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy33" name="happy" value="yes">
+                    <label for="happy33"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>стейк св. 190</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy34" name="happy" value="yes">
+                    <label for="happy34"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>шашлык св.</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy35" name="happy" value="yes">
+                    <label for="happy35"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>шашл кур.</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy36" name="happy" value="yes">
+                    <label for="happy36"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>стейк инд.</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy37" name="happy" value="yes">
+                    <label for="happy37"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">кебаб</td>
+                <td>фарш говядина</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy38" name="happy" value="yes">
+                    <label for="happy38"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>рубленный лук</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy39" name="happy" value="yes">
+                    <label for="happy39"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>рубленная кинза</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy40" name="happy" value="yes">
+                    <label for="happy40"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>Дефрост на сервис п/ф</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>булочка "Бриошь"</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy400" name="happy" value="yes">
+                    <label for="happy400"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Рибай</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy41" name="happy" value="yes">
+                    <label for="happy41"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Фланк</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy42" name="happy" value="yes">
+                    <label for="happy42"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Мачете</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy43" name="happy" value="yes">
+                    <label for="happy43"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Шашлык из говядины</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy44" name="happy" value="yes">
+                    <label for="happy44"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Шашлык из баранины</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy45" name="happy" value="yes">
+                    <label for="happy45"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>Денвер</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy46" name="happy" value="yes">
+                    <label for="happy46"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>шашлык куриный</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy47" name="happy" value="yes">
+                    <label for="happy47"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>стейк куриный</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy48" name="happy" value="yes">
+                    <label for="happy48"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>стейк сёмга</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy49" name="happy" value="yes">
+                    <label for="happy49"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>горбуша</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy50" name="happy" value="yes">
+                    <label for="happy50"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>Дефрост к следующему дню</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>стейк св. 290</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy51" name="happy" value="yes">
+                    <label for="happy51"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>стейк св. 190</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy52" name="happy" value="yes">
+                    <label for="happy52"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>шашлык св.</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy53" name="happy" value="yes">
+                    <label for="happy53"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>стейк индейка</td>
+                <td class="col3"><input type="checkbox" class="custom-checkbox" id="happy54" name="happy" value="yes">
+                    <label for="happy54"></label><label></label></td>
+                <td class="col4"><input type="number" min="0" max="99" /></td>
+            </tr>
+
+            <!-- <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr> -->
+
+
+            <!-- </table> -->
+
+            <!-- </div> -->
+
+
+            <!-- <br /> -->
+
+
+    </div>
+
+    <!-- <script>
+        document.querySelectorAll('#happy').forEach((checkbox, cx) => {
+            let uniqueId = checkbox.id + cx;
+            checkbox.id = uniqueId;
+            checkbox.nextElementSibling.setAttribute('for', uniqueId);
+        });
+    </script> -->
+</body>
+
+</html>
